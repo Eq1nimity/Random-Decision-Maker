@@ -102,4 +102,6 @@ ENV/
 
 
 # pycharm 
-.idea\*
+.idea/*
+.idea/vcs.xml
+.idea/workspace.xml
