@@ -1,6 +1,7 @@
 from random import randint
 from time import sleep
 
+
 def main():
     n = _get_option_count()
     inputs = _get_inputs(n)
@@ -49,11 +50,12 @@ def _random_option_chooser(n, inputs):
     :param inputs: list of strings / output of get_option_count()
     :return: a string containing the random choice.
     """
-    random_option = randint(0, n-1)
+    random_option = randint(0, n - 1)
     destiny = inputs[random_option]
     print("\nCalling Upon the Gods of Chance!!\n")
     sleep(1)
     print("THE GODS HAVE DETERMINED, PROCEED WITH: \n {}".format(destiny))
-2
+
+
 if __name__ == "__main__":
     main()
